@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="/calculette.css"/>
+        <script type="text/javascript"
+            src="y/calculette.js">
+        </script>   
+        <title>calculette</title>
+    </head>
+    <body>
+        <fieldset id="font">
+            <h1 id="titre">Calculatrice</h1>
+
+            <input type="text" title="output" id="output" readonly> <br>
+            <button type="button" value="7" onclick="appendNumber('7')">7</button>
+            <button type="button" value="8" onclick="appendNumber('8')">8</button>
+            <button type="button" value="9" onclick="appendNumber('9')">9</button>
+            <button type="button" value="CLR" onclick="clearOutput()">CLR</button>
+            <button type="button" value="BACK" onclick="backOutput()">BACK</button><br>
+            <button type="button" value="4" onclick="appendNumber('4')">4</button>
+            <button type="button" value="5" onclick="appendNumber('5')">5</button>
+            <button type="button" value="6" onclick="appendNumber('6')">6</button>
+            <button type="button" value="+" onclick="appendOperator('+')">+</button>
+            <button type="button" value="-" onclick="appendOperator('-')">-</button><br>
+            <button type="button" value="1" onclick="appendNumber('1')">1</button>
+            <button type="button" value="2" onclick="appendNumber('2')">2</button>
+            <button type="button" value="3" onclick="appendNumber('3')">3</button>
+            <button type="button" value="*" onclick="appendOperator('*')">*</button>
+            <button type="button" value="/" onclick="appendOperator('/')">/</button><br>
+            <button type="button" value="0" onclick="appendNumber('0')">0</button>
+            <button type="button" value="." onclick="appendOperator('.')">.</button>
+            <button type="button" value="=" onclick="calculate()">=</button>
+
+        </fieldset>       
+    </body>
+</html>
+<!DOCTYPE html>
+
+
+    
